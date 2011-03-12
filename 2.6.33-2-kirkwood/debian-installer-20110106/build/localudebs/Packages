@@ -1,0 +1,498 @@
+Package: fat-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 148
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: fat-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, nls-core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/fat-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 40954
+MD5sum: d6e74a9393f81f5b8ce88e248c6ecf92
+SHA1: fcb592a71a78ffe844176f504acc853a3c84792f
+SHA256: a83ccaa56c1a0bda05a30b938b754e8e07c20da59b879e40d429ff4e6e11c927
+Description: FAT filesystem support
+ This package contains the FAT and VFAT filesystem modules for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: scsi-core-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 320
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: scsi-core-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/scsi-core-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 101358
+MD5sum: edd36dffc70feae6b8fe3f876cefd36d
+SHA1: 1b6e2ac4155f4b8ed13da1ae3ff4c930f3d02dff
+SHA256: 441374f6cf805a989659fbecdf3ca140268215fdc4c662d1261fa67ba5620977
+Description: Core SCSI subsystem
+ This package contains the core SCSI subsystem for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: md-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 700
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: md-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/md-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 287954
+MD5sum: 54f00c67cf230476050b3728d29faf82
+SHA1: b88f4c6e2967c22d31b4ab046bb71b671515c69b
+SHA256: 53fbb2d6a62b017d3e1989c11fa16e8fc473ee09f5dab9fdbdc0f2e6c94a01d6
+Description: RAID and LVM support
+ This package contains RAID and LVM modules for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: nic-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 112
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: nic-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, nic-shared-modules-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/nic-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 28482
+MD5sum: 868f43c45583ec76fa5599b6adf8195a
+SHA1: d58505f62206acdb9897372456a7ea77dcc26a75
+SHA256: b5c11981ad3272de93ef2137d188072ad42bb91ca66cf3fa83f466b2a87884bf
+Description: Common NIC drivers
+ This package contains common NIC drivers for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: ext3-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 268
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: ext3-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/ext3-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 95340
+MD5sum: 2d6d7970ecd47686ced58536c94de6d0
+SHA1: c43ccbb893e973e536bcfc93f435c355c9b26567
+SHA256: 230113ac7ad7c1b6c9f4c589b78610c3eea0186cd278f1d1a5c43683e924da86
+Description: EXT3 filesystem support
+ This package contains the EXT3 filesystem module for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: usb-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 356
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: usb-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, nls-core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/usb-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 130802
+MD5sum: 1b20560b6befe170f58166ab8669766a
+SHA1: 794ec57a2d6d1ba2acf73da9781cfdc93c9226df
+SHA256: 4f3f0014b51980055e2683e4352379d671e5d59643bc39b0bdf2c73461865c4a
+Description: USB support
+ This package contains core USB drivers for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: crc-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 40
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: crc-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/crc-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 3606
+MD5sum: 2b3e49b6722541da43c4ac73cc4e480b
+SHA1: 65f20dbd2b3710ee292440eea1ef638ba9b2a2ba
+SHA256: 128a89fe5f77d3d8b436fe66b4f127d9cc2c7c83234e9203871d8bf572160e9c
+Description: CRC modules
+ This package contains CRC support modules.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: sata-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 292
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: sata-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, scsi-core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/sata-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 104246
+MD5sum: 48db09f53e5762050c3b704bd6beb9cf
+SHA1: d6e8812264e6115b87a1500d515e11f27186255b
+SHA256: b3eea3ac8e93bd78782cd7f060d5c2fe8da01f7afbdf72c5708605cc8769fd52
+Description: SATA drivers
+ This package contains SATA drivers for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: multipath-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 68
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: multipath-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, md-modules-2.6.33-2-kirkwood-di, scsi-core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/multipath-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 13440
+MD5sum: 473144bd4286f85ea063982f659224ba
+SHA1: 16196ae3e6616a454204a99b7f7ea8a0f51e089f
+SHA256: 57452d67f0fc438db0b4db7e9f45b6d6104996ed0ca9ece2cd7a283aeba2a699
+Description: Multipath support
+ This package contains DM-Multipath modules for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: minix-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 72
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: minix-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/minix-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 16446
+MD5sum: 4928b76616f203aa474346670e133a8d
+SHA1: ad9e65161ddaf1c8de5e15983f25b759c1e6fa52
+SHA256: a3398edd8937a18b082b33a426020b5529aaa541694c29318050be40f5cc3712
+Description: Minix filesystem support
+ This package contains the Minix filesystem module for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: nls-core-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 44
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: nls-core-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/nls-core-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 4746
+MD5sum: 0217337d03b0ea094460ee57aac0330a
+SHA1: c4024d0c18c8de70c8b67668ade96976df576fd4
+SHA256: 5492ad311d4d0c7e974a26a7a3915babe700d981b0c83fb007325beed53d7164
+Description: Core NLS support
+ This package contains basic NLS support modules for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: ext2-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 124
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: ext2-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/ext2-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 37584
+MD5sum: 4e704ce5d2a091bdbd62c37f57a8ab5b
+SHA1: 4c9fa687a20f7f5dc44324d9e12fab1fcf8d3abb
+SHA256: e69f3e88fc60034ef5cc2a03ff6693d2cb17a85afdf21ce462a25afbf857c4c6
+Description: EXT2 filesystem support
+ This package contains the EXT2 filesystem module for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: squashfs-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 68
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: squashfs-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/squashfs-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 14478
+MD5sum: 193f4a7a54d48854443ff8de7d95a2fb
+SHA1: 0ec4e449a0101901c38468e535443664551f1723
+SHA256: 002bdcb10ebb925bb7527f7d6bb545fb3704f8e7521b912688eadc5583716af0
+Description: squashfs modules
+ This package contains squashfs modules.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: loop-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 60
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: loop-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/loop-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 11182
+MD5sum: a00998a736b3ac53a8928d9a66ea0998
+SHA1: 74fffe0c7aedaafc7e7e69639efcef41f3e26e33
+SHA256: 7b909f6802080314725111ae61c32ee05c19a1547925ca283da67f88100a17e8
+Description: Loopback filesystem support
+ This package contains loopback filesystem support for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: crypto-dm-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 56
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: crypto-dm-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, md-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/crypto-dm-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 9756
+MD5sum: c0b55a3237308ad871fdcd8519bcbd0f
+SHA1: d1424caf3f487497be6c05ff29e7ea2abac6d06b
+SHA256: 77743b99146106bd6d4c6eb0b70b995bb397dfb0213a69ecd5c38eb83060d4ed
+Description: devicemapper crypto module
+ This package contains the devicemapper crypto (dm-crypt) module.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: isofs-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 76
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: isofs-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, nls-core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/isofs-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 19142
+MD5sum: 86782b9afee571b2bef7ae2876a961b5
+SHA1: 0c6b770bfc6746ba9037b7a8b08b320479ed0f6d
+SHA256: ef63a34e00bf7f346f6dbca9627a0d2d834dd59c4abbc07493436b7410b2a841
+Description: ISOFS filesystem support
+ This package contains the ISOFS filesystem module for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: nic-shared-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 40
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: nic-shared-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/nic-shared-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 4198
+MD5sum: 05458936bd219586fecce7009942a0bc
+SHA1: d2c16119af440d0150bd369f7778a2fb197c13b0
+SHA256: 5069ea443d4d5017716e64742b11bc1facb0f5468b2239a6df5471d956011c05
+Description: Shared NIC drivers
+ This package contains NIC drivers needed by combinations of nic-modules,
+ nic-extra-modules, nic-pcmcia-modules, and nic-wireless-modules.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: nic-usb-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 948
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: nic-usb-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, nic-shared-modules-2.6.33-2-kirkwood-di, usb-modules-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/nic-usb-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 320588
+MD5sum: 60a16d65f255662c97c167f04379ac82
+SHA1: 07ba20718df6d01f0d776980eadb619a820dd568
+SHA256: 267a77c8ddf7722474db870375779f84fecb27908b1eaf3db84d60217d7d31f3
+Description: USB NIC drivers
+ This package contains USB network adapter drivers for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: usb-storage-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 128
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: usb-storage-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, scsi-core-modules-2.6.33-2-kirkwood-di, usb-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/usb-storage-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 29010
+MD5sum: 1280b2b797606cb5a58b0a1e9b3e36d4
+SHA1: 015db083c1ddf1f548c72c978244fb1be07c6579
+SHA256: 04ff1b825bcf801ca1ded17aa239b9463fd64fb836f52d6abd179a0b3a3d6d0e
+Description: USB storage support
+ This package contains the USB storage driver for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: ext4-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 512
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: ext4-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/ext4-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 187440
+MD5sum: b43c40c1ee2da8b5e3aff7820d7be20c
+SHA1: 369da8635dd430528e3affeab86ce5093ea50afc
+SHA256: e6dfc31dc2e9e552e5bc776a5ccda5c78119518ca408a06a77239f22e1abd2ff
+Description: EXT4 filesystem support
+ This package contains the EXT4 filesystem module for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: cdrom-core-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 112
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: cdrom-core-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, scsi-core-modules-2.6.33-2-kirkwood-di, isofs-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/cdrom-core-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 30384
+MD5sum: 1d2d6236502924f1a2a99c38f01d8cb6
+SHA1: ffef9618e256768e1d99859f7093b292f0cd31e9
+SHA256: 35cea4a1b7041ecd94554e91eedd57e4eac33280144995f708a42c36fa5a593c
+Description: CDROM support
+ This package contains core CDROM support for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: input-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: input-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, usb-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/input-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 10192
+MD5sum: 217e596ff54e86097980276b2661dd24
+SHA1: 20772492b4bec8f9de7cbd0ef86c6b929c7cc819
+SHA256: 5aa27f82c48f3e71982a542e67cc248cd251684d12e63481c106d0878bd40978
+Description: Input devices support
+ This package contains input device drivers for the kernel.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: kernel-image-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 2412
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: jffs2-modules, kernel-image, rtc-modules
+Filename: localudebs/kernel-image-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 1693438
+MD5sum: d342abf1b5c5eb6a678aa054682533f4
+SHA1: 69391b32475ae5b6d4ee671fc474d3aec9c86adb
+SHA256: 0aa81420d55d937359e59724bfb9cf4a6a2aadc90450c60ddc882b9c889db60a
+Description: Linux kernel binary image for the Debian installer
+ This package contains the kernel image for the Debian installer
+ boot images. It does _not_ provide a usable kernel for your full
+ Debian system.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: crypto-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 164
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: crypto-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/crypto-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 56402
+MD5sum: 34d4c55efe787f33d499757a1dd6303f
+SHA1: 7633be82fe0a07b17c7bbc861225fabd37e324f1
+SHA256: 5bd9c81baf53e5abe9bac96c5a75be3aabff3b283eb6dca76b09c54bc1a086fc
+Description: crypto modules
+ This package contains crypto modules.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: mmc-modules-2.6.33-2-kirkwood-di
+Priority: extra
+Section: debian-installer
+Installed-Size: 240
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: mmc-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di, core-modules-2.6.33-2-kirkwood-di
+Filename: localudebs/mmc-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 64856
+MD5sum: 430c53475f1a6975c0532204b21c42e9
+SHA1: bf1a1eee8716a26b8676610c2de331bb18ccb4e1
+SHA256: 41dbe354a9ad4375a8392fe5dd29ac69e21586c6ef26e60ecb90c2638fe0027e
+Description: MMC/SD card modules
+ This package contains modules needed to support MMC (multimedia) and
+ SD cards.
+Kernel-Version: 2.6.33-2-kirkwood
+
+Package: core-modules-2.6.33-2-kirkwood-di
+Priority: standard
+Section: debian-installer
+Installed-Size: 44
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armel
+Source: linux-kernel-di-armel-2.6
+Version: 1.42
+Provides: core-modules
+Depends: kernel-image-2.6.33-2-kirkwood-di
+Filename: localudebs/core-modules-2.6.33-2-kirkwood-di_1.42_armel.udeb
+Size: 5592
+MD5sum: 1073b4c0059319c416fa4b512b3d78a3
+SHA1: daf9cfef121f2dc89b16ece79ced39b3e056b9ff
+SHA256: 605cbd8e2efcfa9641bfb18958978065c3ff22e3bc2d8efc58d9b363a9407c67
+Description: Core modules
+ This package contains core modules for the kernel, that will almost
+ always be needed.
+Kernel-Version: 2.6.33-2-kirkwood
+

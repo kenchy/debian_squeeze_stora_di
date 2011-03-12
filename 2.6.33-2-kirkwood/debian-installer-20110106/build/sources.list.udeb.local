@@ -1,0 +1,3 @@
+deb copy:/usr/src/debian-installer-20110106/build/ localudebs/
+deb http://ftp.us.debian.org/debian stable main/debian-installer
+deb http://ftp.debian.org/debian stable main/debian-installer

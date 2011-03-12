@@ -1,0 +1,7 @@
+12/03/2011
+
+A record of the changes made to debian installer to make it work on the netgear stora, this is all based on the instructions here:
+
+http://wiki.debian.org/DebianInstaller/Modify/CustomKernel
+
+The modifications include, the udebs generated from the custome kernel package, the apt config, the pkg-list, and adding the stora as a target
